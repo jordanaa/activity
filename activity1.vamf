@@ -37,12 +37,12 @@
       ],
     "startupTasks": [
     {
-      "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+      "testPath": "main/simpleTestCase/test_cases/nothing11.fftc"
      }
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/childSteps.fftc"
+        "testPath": "main/simpleTestCase/test_cases/childSteps11.fftc"
       }
       ]
     }]
