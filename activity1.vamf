@@ -36,13 +36,47 @@
          }
       ],
     "startupTasks": [
-    {
-      "testPath": "main/simpleTestCase/test_cases/parameters.fftc"
-     }
+      {
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						}
+					]
+      }
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/parameters.fftc"
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					],
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "jordan"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
+						}
+					]
       }
       ]
     }]
