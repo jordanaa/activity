@@ -37,18 +37,18 @@
       ],
     "startupTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing11.fftc"
       },
       {
-        "testPath": "main/simpleTestCase/test_cases/sleep.fftc"
+        "testPath": "main/simpleTestCase/test_cases/sleep11.fftc"
       }
       ],
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+        "testPath": "main/simpleTestCase/test_cases/nothing11.fftc"
       },
       {
-        "testPath": "main/simpleTestCase/test_cases/sleep.fftc"
+        "testPath": "main/simpleTestCase/test_cases/sleep11.fftc"
       }
       ]
     }]
