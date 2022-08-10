@@ -30,7 +30,7 @@ This is a [link][reference-2] to reference-2
 ![Image with reference][reference-3]  
 ![Image from file](mars.jpg)
 ![Image from file](dog.jpeg)
-![Image from file](skype.png)
+![Image from file](download.png)
 ![Image from file](jerry.tiff)
 ![Image from file](cartoon.eps)
 
