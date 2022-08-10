@@ -29,9 +29,9 @@ This is a [link][reference-2] to reference-2
 ![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg)
 ![Image with reference][reference-3]  
 ![Image from file](mars.jpg)
-![image](https://user-images.githubusercontent.com/32986958/183833821-a2d776a4-0508-4d1f-9c64-905ee5929069.png)
-![dog](https://user-images.githubusercontent.com/32986958/183843629-25d52f13-6753-428c-893e-54d7f71585cf.jpeg)
-![jerry1](https://user-images.githubusercontent.com/32986958/183843852-eb83dae3-6fd3-478c-8992-e4cfc83e8b91.svg)
+![image](https://user-images.githubusercontent.com/32986958/183833821-a2d776a4-0508-4d1f-9c64-905ee5929069.png=10x20)
+![dog](https://user-images.githubusercontent.com/32986958/183843629-25d52f13-6753-428c-893e-54d7f71585cf.jpeg=10x20)
+![jerry1](https://user-images.githubusercontent.com/32986958/183843852-eb83dae3-6fd3-478c-8992-e4cfc83e8b91.svg=10x20)
 
 
 # Videos
