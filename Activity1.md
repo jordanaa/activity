@@ -28,12 +28,12 @@ This is a [link][reference-2] to reference-2
 
 ![Sample image](https://i.kinja-img.com/gawker-media/image/upload/s--GgpOUVnh--/c_scale,f_auto,fl_progressive,q_80,w_800/riufs7rtpk6okzrqiqmy.jpg)
 ![Image with reference][reference-3]  
-![Image from file](mars.jpg)
-![Image from file](dog.jpeg)
-![Image from file](download.png)
-![Image from file](jerry.tiff)
-![Image from file](cartoon.eps)
-![Image from file](raw.raw)
+![Image from file](mars.jpg=10x20)
+![Image from file](dog.jpeg=10x20)
+![Image from file](download.png=10x20)
+![Image from file](jerry.tiff=10x20)
+![Image from file](cartoon.eps=10x20)
+![Image from file](raw.raw=10x20)
 
 
 # Videos
