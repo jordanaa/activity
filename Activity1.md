@@ -30,8 +30,6 @@ This is a [link][reference-2] to reference-2
 ![Image with reference][reference-3]  
 ![Image from file](mars.jpg)
 ![Image from file](mars.jpg=100x)
-
-
 ![image](https://user-images.githubusercontent.com/32986958/183833821-a2d776a4-0508-4d1f-9c64-905ee5929069.png)
 
 
