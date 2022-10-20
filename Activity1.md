@@ -85,7 +85,16 @@ Paragraph line 2  test
 | info2     |    ✔    |     ❗    |
 | info3     |    ✔    |     ❗    |
 
-![Image from file](mars.jpg=200x20)
+
+
+
+
+![Image from file](dog.jpeg=200x20)
+
+
+
+
+
 
 # References (should not be displayed)
 
