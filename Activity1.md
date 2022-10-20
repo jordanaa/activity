@@ -89,7 +89,7 @@ Paragraph line 2  test
 
 
 
-![Image from file](dog.jpeg)
+![Image from file](dog.jpeg=200X)
 
 
 
