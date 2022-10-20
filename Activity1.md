@@ -30,7 +30,7 @@ This is a [link][reference-2] to reference-2
 ![Image with reference][reference-3]  
 ![Image from file](mars.jpg=10x20)
 ![Image from file](dog.jpeg=10x20)
-![Image from file](download.png=10x20)
+![Image from file](download.png=100)
 ![Image from file](jerry.tiff=10x20)
 ![Image from file](cartoon.eps=10x20)
 ![Image from file](raw.raw=10x20)
