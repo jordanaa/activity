@@ -44,6 +44,20 @@
 							"type": "INTEGER",
 							"value": "27"
 						}
+					],
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "jordan"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
+						}
 					]
       }
       ],
