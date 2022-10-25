@@ -52,7 +52,8 @@
 							"value": "triggered"
 						},
 						{
-							"random": "value",
+							"name": "random",
+							"value": "value",
 						}
 					]
       }
