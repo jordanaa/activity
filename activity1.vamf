@@ -56,6 +56,26 @@
 							"value": "value"
 						}
 					]
+      },
+      "testPath": "main/simpleTestCase/test_cases/nothing1.fftc",
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "jordan"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
+						},
+						{
+							"name": "random",
+							"value": "value"
+						}
+					]
       }
       ],
 
@@ -63,6 +83,35 @@
       {
         "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
 	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+        "parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					],
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "jordan"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
+						}
+					]
+      },
+      "testPath": "main/simpleTestCase/test_cases/parameters100.fftc",
+	"parameterFilePath": "main/simpleTestCase/test_cases/parameters100.ffpt",
         "parametersList": [
 						{
 							"name": "parameter1",
