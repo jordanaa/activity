@@ -85,7 +85,7 @@
 							"value": "triggered"
 						},
 						{
-							"random":value
+							"random":"value"
 						}
 					]
       }
