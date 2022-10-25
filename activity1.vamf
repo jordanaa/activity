@@ -57,8 +57,10 @@
 						}
 					]
       },
+      
+      {
       "testPath": "main/simpleTestCase/test_cases/nothing1.fftc",
-	"requirements":[
+      "requirements":[
 						{
 							"name": "agent_name",
 							"value": "jordan"
@@ -110,9 +112,10 @@
 						}
 					]
       },
+      {
       "testPath": "main/simpleTestCase/test_cases/parameters100.fftc",
-	"parameterFilePath": "main/simpleTestCase/test_cases/parameters100.ffpt",
-        "parametersList": [
+      "parameterFilePath": "main/simpleTestCase/test_cases/parameters100.ffpt",
+       "parametersList": [
 						{
 							"name": "parameter1",
 							"type": "INTEGER",
