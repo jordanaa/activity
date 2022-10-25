@@ -59,6 +59,7 @@
       {
         "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
 	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+	"allowToRunWithOptions": true,
         "parametersList": [
 						{
 							"name": "parameter1",
