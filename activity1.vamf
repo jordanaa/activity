@@ -50,6 +50,9 @@
 						{
 							"name": "pool",
 							"value": "triggered"
+						},
+						{
+							"random": "value",
 						}
 					]
       }
