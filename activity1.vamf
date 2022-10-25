@@ -71,7 +71,7 @@
 							"type": "TEXT",
 							"value": "testValue3"
 						}
-					]
+					],
 	"requirements":[
 						{
 							"name": "agent_name",
