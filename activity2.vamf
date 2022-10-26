@@ -49,7 +49,7 @@
         "testPath": "main/simpleTestCase/test_cases/childSteps.fftc"
       },
       {
-        "testPath": "main/simpleTestCase/test_cases/sleep11.fftc"
+        "testPath": "main/simpleTestCase/test_cases/sleep.fftc"
       }
       ]
     }]
