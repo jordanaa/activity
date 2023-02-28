@@ -60,7 +60,7 @@
       },
       
       {
-      "testPath": "main/simpleTestCase/test_cases/nothing1.fftc",
+      "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
       "requirements":[
 						{
 							"name": "agent_name",
@@ -114,8 +114,8 @@
 					]
       },
       {
-      "testPath": "main/simpleTestCase/test_cases/parameters100.fftc",
-      "parameterFilePath": "main/simpleTestCase/test_cases/parameters100.ffpt",
+      "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+      "parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
        "parametersList": [
 						{
 							"name": "parameter1",
