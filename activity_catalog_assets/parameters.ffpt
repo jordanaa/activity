@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
-<ParameterTree version="7.0.1.201802131446">
+<ParameterTree version="9.0.0.202202250149">
     <parameters escape="true">
         <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
-            <parameter1 pt:datatype="INTEGER">20</parameter1>
-            <parameter2>&quot;Random text here&quot;</parameter2>
-            <maskedParameter1 pt:mask="true">Nd3O6CGyJVDhWBQgWAG2EA==</maskedParameter1>
+            <reservationId/>
+            <addedResourcesIds/>
+            <deletedResourcesIds pt:mask="true">CaK+mWSFs84=</deletedResourcesIds>
+            <addedLinksIds/>
+            <deletedLinksIds/>
         </parameters>
     </parameters>
 </ParameterTree>
