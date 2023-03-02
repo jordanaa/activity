@@ -1,0 +1,104 @@
+{  "name":"Activity 3 - Repo 1",
+   "shortDescription": "Test Automation Asset added under Startup and Teardown sections and add a parameter configured initially but with a different value",
+   "icon":"customActivityManual.svg",
+   "descriptionMarkdown":"Activity1.md",
+   "topology": [
+{
+      "name": "Topology 1",
+      "actionTitle":"Reserve",
+      "description": "Create an immediate reservation on the topology",
+      "reservationDuration":"",
+      "automation": [
+         {
+            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList":[
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+	   
+         },
+         {
+            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "allowToRunWithOptions": true,
+            "name": "NewNameManifest",
+            "parametersList": [
+               {
+                  "name": "manifestParam2",
+                  "value": "testValue2",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         }
+      ],
+     "startupTasks": [
+      {
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+	"parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					],
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "jordan_1"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
+						}
+					]
+      },
+    
+    "teardownTasks": [
+      {
+        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+	"parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					],
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "jordan_1"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
+						}
+					]
+      }
+      ]
+    }]
+}
