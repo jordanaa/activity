@@ -75,8 +75,17 @@
 	"requirements":[
 						{
 							"name": "agent_name",
-							"value": "vel-jordan.spirenteng.com"
+							"value": "jordan_1"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
 						}
+						
 					]
       },
       {
@@ -85,7 +94,15 @@
 	"requirements":[
 						{
 							"name": "agent_name",
-							"value": "vel-jordan.spirenteng.com"
+							"value": "jordan_1"
+						},
+						{
+							"name": "pool",
+							"value": "startupteardown"
+						},
+						{
+							"name": "pool",
+							"value": "triggered"
 						}
 					]
       }
