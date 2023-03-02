@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<testCase version="9.0.0.202202250149">
+<testCase version="9.3.0.202301030018">
     <general>
         <language>Python</language>
     </general>
     <execution>
-        <parameters version="9.0.0.202202250149">
+        <parameters version="9.3.0.202301030018">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
                     <parameter1>20</parameter1>
@@ -14,9 +14,6 @@
             </parameters>
         </parameters>
     </execution>
-    <requirements>
-        <requirement key="random">value</requirement>
-    </requirements>
     <procedures>
         <item name="main">
             <steps>
