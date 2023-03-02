@@ -51,10 +51,6 @@
 						{
 							"name": "pool",
 							"value": "triggered"
-						},
-						{
-							"name": "random",
-							"value": "value"
 						}
 					]
       },
@@ -73,10 +69,6 @@
 						{
 							"name": "pool",
 							"value": "triggered"
-						},
-						{
-							"name": "random",
-							"value": "value"
 						}
 					]
       }
