@@ -66,8 +66,9 @@
 							"value": "triggered"
 						}
 					]
-      },
-    
+      }
+      ],
+
     "teardownTasks": [
       {
         "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
