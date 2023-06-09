@@ -1,0 +1,53 @@
+{
+   "version":"1.0.0",
+   "parameters":[
+      {
+         "name":"param1",
+         "value":"test_param",
+         "type":"TEXT",
+         "description":"param description"
+      },
+      {
+         "name":"param2",
+         "value":"true",
+         "type":"BOOLEAN"
+      },
+      {
+         "name":"param3",
+         "type":"INTEGER",
+         "value":"3"
+      },
+      {
+         "name":"param4",
+         "type":"DOUBLE",
+         "value":"2.4"
+      },
+      {
+         "name":"param5",
+         "type":"SECRET",
+         "masked":true
+      },
+      {
+         "name":"parent",
+         "parameters":[
+            {
+               "name":"parent2",
+               "parameters":[
+                  {
+                     "name":"nested",
+                     "type":"TEXT",
+                     "value":""
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"password",
+         "type":"TEXT",
+         "value":"6tgA3NkRPCMJor6ZZIWzzg==",
+         "masked":true
+      }
+   ],
+   "tags":"tag0, tag1, tag2"
+}
