@@ -49,10 +49,6 @@
 					],
 	"requirements":[
 						{
-							"name": "agent_name",
-							"value": "jordan_1"
-						},
-						{
 							"name": "pool",
 							"value": "startupteardown"
 						},
@@ -82,10 +78,6 @@
 					],
 	"requirements":[
 						{
-							"name": "agent_name",
-							"value": "jordan_1"
-						},
-						{
 							"name": "pool",
 							"value": "startupteardown"
 						},
@@ -100,10 +92,7 @@
         "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
 	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
 	"requirements":[
-						{
-							"name": "agent_name",
-							"value": "jordan_1"
-						},
+						
 						{
 							"name": "pool",
 							"value": "startupteardown"
