@@ -42,15 +42,11 @@
 	"requirements":[
 						{
 							"name": "agent_name",
-							"value": "jordan_1"
+							"value": "vel-jordan3.velocity-pv.lwd.int.spirent.io"
 						},
 						{
 							"name": "pool",
-							"value": "startupteardown"
-						},
-						{
-							"name": "pool",
-							"value": "triggered"
+							"value": "driver"
 						}
 					]
       },
@@ -60,15 +56,11 @@
       "requirements":[
 						{
 							"name": "agent_name",
-							"value": "jordan_1"
+							"value": "vel-jordan3.velocity-pv.lwd.int.spirent.io"
 						},
 						{
 							"name": "pool",
-							"value": "startupteardown"
-						},
-						{
-							"name": "pool",
-							"value": "triggered"
+							"value": "driver"
 						}
 					]
       }
@@ -93,15 +85,11 @@
 	"requirements":[
 						{
 							"name": "agent_name",
-							"value": "jordan_1"
+							"value": "vel-jordan3.velocity-pv.lwd.int.spirent.io"
 						},
 						{
 							"name": "pool",
-							"value": "startupteardown"
-						},
-						{
-							"name": "pool",
-							"value": "triggered"
+							"value": "driver"
 						}
 					]
       },
@@ -123,15 +111,11 @@
 	"requirements":[
 						{
 							"name": "agent_name",
-							"value": "jordan_1"
+							"value": "vel-jordan3.velocity-pv.lwd.int.spirent.io"
 						},
 						{
 							"name": "pool",
-							"value": "startupteardown"
-						},
-						{
-							"name": "pool",
-							"value": "triggered"
+							"value": "driver"
 						}
 					]
       }
