@@ -16,13 +16,37 @@
                 </item>
                 <item guid="a2f2ab7d-6cef-457f-a538-bc965a447fdd" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>var1= param(&apos;reservationId&apos;)</body>
+                        <body>var1= param(&apos;property_Hostname&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="e6dfb121-a65d-47e7-8bb7-35da2669a07e" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>var2= param(&apos;property_ipAddress&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="4384e260-d3d4-49f7-a1bc-f2a3d33b2924" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>var3= param(&apos;property_reservationId&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
                 <item guid="b57751bf-32af-46e8-9e89-3d3878ba9e85" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(var1)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="71697212-a723-436f-b4fb-957da14aa0ea" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(var2)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="ef3a6a41-36a5-4252-ada5-437873536612" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(var3)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
