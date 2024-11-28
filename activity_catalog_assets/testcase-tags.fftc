@@ -14,25 +14,13 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="2ce46f12-e078-47e9-b96c-d6448638289a" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>reservationId = os.environ[velocity_reservationId]</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="5bb2954b-2111-42b1-9435-dd5ab25fd98a" action="eval" useFieldsInCommand="false">
+                <item guid="a2f2ab7d-6cef-457f-a538-bc965a447fdd" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>var1= param(&apos;reservationId&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                <item guid="10c1619f-9fa8-4094-8c9c-0f95bbe29466" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print(reservationId)</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="63144bd5-5cc6-469c-a72f-8987b5b73bad" action="eval" useFieldsInCommand="false">
+                <item guid="b57751bf-32af-46e8-9e89-3d3878ba9e85" action="eval" useFieldsInCommand="false">
                     <command>
                         <body>print(var1)</body>
                     </command>
