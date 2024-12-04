@@ -4,7 +4,7 @@
    "descriptionMarkdown":"Activity1.md",
    "topology": [
 {
-      "name": "Topology 1",
+      "name": "Activity Topology 1",
       "actionTitle":"Reserve",
       "description": "Create an immediate reservation on the topology",
       "reservationDuration":"",
