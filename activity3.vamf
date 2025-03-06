@@ -10,7 +10,7 @@
       "reservationDuration":"",
       "automation": [
          {
-            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "testPath": "main/simpleTestCase/session_profile/sleep.fftc",
             "allowToRunWithOptions": true,
             "parametersList":[
                {
@@ -23,7 +23,7 @@
 	   
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "testPath": "main/simpleTestCase/session_profile/nothing.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
@@ -38,8 +38,8 @@
       ],
      "startupTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
-	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+        "testPath": "main/simpleTestCase/session_profile/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/session_profile/parameters.ffpt",
 	"parametersList": [
 						{
 							"name": "parameter1",
@@ -62,8 +62,8 @@
 
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
-	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+        "testPath": "main/simpleTestCase/session_profile/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/session_profile/parameters.ffpt",
 	"parametersList": [
 						{
 							"name": "parameter1",
@@ -89,8 +89,8 @@
 					]
       },
       {
-        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
-	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+        "testPath": "main/simpleTestCase/session_profile/parameters.fftc",
+	"parameterFilePath": "main/simpleTestCase/session_profile/parameters.ffpt",
 	"requirements":[
 						
 						{
