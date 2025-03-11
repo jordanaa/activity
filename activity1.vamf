@@ -10,7 +10,7 @@
       "reservationDuration":"",
       "automation": [
          {
-            "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+            "testPath": "test/activity_catalog_assets/sleep.fftc",
             "allowToRunWithOptions": true,
             "parametersList":[
                {
@@ -23,7 +23,7 @@
 	   
          },
          {
-            "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+            "testPath": "test/activity_catalog_assets/sleep.fftc",
             "allowToRunWithOptions": true,
             "name": "NewNameManifest",
             "parametersList": [
@@ -38,7 +38,7 @@
       ],
      "startupTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/nothing.fftc",
+        "testPath": "test/activity_catalog_assets/sleep.fftc",
 	"requirements":[
 						{
 							"name": "agent_name",
@@ -52,7 +52,7 @@
       },
       
       {
-      "testPath": "main/simpleTestCase/test_cases/sleep.fftc",
+      "testPath": "test/activity_catalog_assets/sleep.fftc",
       "requirements":[
 						{
 							"name": "agent_name",
@@ -68,8 +68,8 @@
 
     "teardownTasks": [
       {
-        "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
-	"parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+        "testPath": "test/activity_catalog_assets/parameters.fftc",
+	"parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
 	"parametersList": [
 						{
 							"name": "parameter1",
@@ -94,8 +94,8 @@
 					]
       },
       {
-      "testPath": "main/simpleTestCase/test_cases/parameters.fftc",
-      "parameterFilePath": "main/simpleTestCase/test_cases/parameters.ffpt",
+      "testPath": "test/activity_catalog_assets/parameters.fftc",
+      "parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
        "parametersList": [
 						{
 							"name": "parameter1",
