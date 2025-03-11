@@ -63,6 +63,32 @@
 							"value": "driver"
 						}
 					]
+      },
+      {
+        "testPath": "test/activity_catalog_assets/parameters.fftc",
+	"parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
+	"parametersList": [
+						{
+							"name": "parameter1",
+							"type": "INTEGER",
+							"value": "27"
+						},
+						{
+							"name": "parameter2",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					],
+	"requirements":[
+						{
+							"name": "agent_name",
+							"value": "vel-jordan3.velocity-pv.lwd.int.spirent.io"
+						},
+						{
+							"name": "pool",
+							"value": "driver"
+						}
+					]
       }
       ],
 
