@@ -65,7 +65,7 @@
 					]
       },
       {
-        "testPath": "test/activity_catalog_assets/parameters.fftc",
+        "testPath": "main/simpleTestCases/test_cases/parameters.fftc",
 	"parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
 	"parametersList": [
 						{
@@ -94,7 +94,7 @@
 
     "teardownTasks": [
       {
-        "testPath": "test/activity_catalog_assets/parameters.fftc",
+        "testPath": "main/simpleTestCases/test_cases/parameters.fftc",
 	"parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
 	"parametersList": [
 						{
@@ -120,7 +120,7 @@
 					]
       },
       {
-      "testPath": "test/activity_catalog_assets/parameters.fftc",
+      "testPath": "main/simpleTestCases/test_cases/parameters.fftc",
       "parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
        "parametersList": [
 						{
