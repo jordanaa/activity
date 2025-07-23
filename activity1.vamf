@@ -65,7 +65,7 @@
 					]
       },
       {
-        "testPath": "main/simpleTestCases/test_cases/parameters.fftc",
+        "testPath": "test/activity_catalog_assets/parameters.fftc",
 	"parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
 	"parametersList": [
 						{
