@@ -65,7 +65,7 @@
 					]
       },
       {
-        "testPath": "test/activity_catalog_assets/parameters.fftc",
+        "testPath": "main/QAtest/nothing.fftc",
 	"parameterFilePath": "test/activity_catalog_assets/parameters.ffpt",
 	"parametersList": [
 						{
