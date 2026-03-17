@@ -34,6 +34,7 @@ This is a [link][reference-2] to reference-2
 ![Image from file](jerry.tiff=10x20)
 ![Image from file](cartoon.eps=10x20)
 ![Image from file](raw.raw=10x20)
+![Image from file](mars.jpg=100x20)
 
 
 # Videos
