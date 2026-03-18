@@ -12,6 +12,16 @@
          {
             "testPath": "main/simpleTestCases/test_cases/nothing.fftc",
             "allowToRunWithOptions": true,
+			"requirements":[
+						{
+							"name": "agent_name",
+							"value": "vel-edi.velocity-pv.lwd.spirenteng.com"
+						},
+						{
+							"name": "pool",
+							"value": "driver"
+						}
+					],
             "parametersList":[
                {
                   "name": "manifestParam1",
