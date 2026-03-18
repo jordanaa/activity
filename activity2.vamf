@@ -14,10 +14,6 @@
             "allowToRunWithOptions": true,
 			"requirements":[
 						{
-							"name": "agent_name",
-							"value": "vel-edi.velocity-pv.lwd.spirenteng.com"
-						},
-						{
 							"name": "pool",
 							"value": "driver"
 						}
@@ -51,10 +47,6 @@
         "testPath": "main/simpleTestCases/test_cases/nothing.fftc",
 		"requirements":[
 						{
-							"name": "agent_name",
-							"value": "vel-edi.velocity-pv.lwd.spirenteng.com"
-						},
-						{
 							"name": "pool",
 							"value": "driver"
 						}
@@ -63,10 +55,6 @@
       {
         "testPath": "main/my_project/test_cases/test.fftc",
 		"requirements":[
-								{
-									"name": "agent_name",
-									"value": "vel-edi.velocity-pv.lwd.spirenteng.com"
-								},
 								{
 									"name": "pool",
 									"value": "driver"
@@ -79,10 +67,6 @@
         "testPath": "main/my_project/test_cases/test.fftc",
 		"requirements":[
 						{
-							"name": "agent_name",
-							"value": "vel-edi.velocity-pv.lwd.spirenteng.com"
-						},
-						{
 							"name": "pool",
 							"value": "driver"
 						}
@@ -91,10 +75,6 @@
       {
         "testPath": "main/my_project/test_cases/test.fftc",
 		"requirements":[
-						{
-							"name": "agent_name",
-							"value": "vel-edi.velocity-pv.lwd.spirenteng.com"
-						},
 						{
 							"name": "pool",
 							"value": "driver"
