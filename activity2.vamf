@@ -53,7 +53,7 @@
 					]
       },
       {
-        "testPath": "main/my_project/test_cases/test.fftc",
+        "testPath": "main/simpleTestCases/test_cases/nothing.fftc",
 		"requirements":[
 								{
 									"name": "pool",
@@ -64,7 +64,7 @@
       ],
     "teardownTasks": [
       {
-        "testPath": "main/my_project/test_cases/test.fftc",
+        "testPath": "main/simpleTestCases/test_cases/sleep.fftc",
 		"requirements":[
 						{
 							"name": "pool",
@@ -73,7 +73,7 @@
 					]
       },
       {
-        "testPath": "main/my_project/test_cases/test.fftc",
+        "testPath": "main/simpleTestCases/test_cases/sleep.fftc",
 		"requirements":[
 						{
 							"name": "pool",
