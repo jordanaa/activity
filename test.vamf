@@ -1,0 +1,39 @@
+{  "name":"Activity automation test",
+   "shortDescription": "Activity automation test",
+   "icon":"customActivityManual.svg",
+   "descriptionMarkdown":"Activity1.md",
+   "topology": [
+{
+      "name": "Activity Topology 1",
+      "actionTitle":"Reserve",
+      "description": "Create an immediate reservation on the topology",
+      "reservationDuration":"",
+      "automation": [
+         {
+            "testPath": "jordan/activity_catalog_assets/sleep_2min.fftc",
+            "allowToRunWithOptions": true,
+            "parametersList":[
+               {
+                  "name": "manifestParam1",
+                  "value": "testValue1",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+	   
+         },
+         {
+            "testPath": "test/activity_catalog_assets/sleep.fftc",
+            "allowToRunWithOptions": true,
+            "name": "NewNameManifest",
+            "parametersList": [
+               {
+                  "name": "manifestParam2",
+                  "value": "testValue2",
+                  "type": "TEXT",
+                  "description": "Test Description" 
+               }
+            ]
+         }
+      ]
+}]}
